@@ -1,0 +1,30 @@
+.form__field {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form__label { 
+  width: 200px;
+  color: #757575;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.form__input,
+.form__area {
+  width: 100%;
+  outline: none;
+  border: 1px solid #d5dbd9;
+  font-size: 10px;
+  line-height: 9px;
+  padding: 8px 10px;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+.form__input:focus,
+.form__area:focus {
+  border: 1px solid #ffdb00;
+}
