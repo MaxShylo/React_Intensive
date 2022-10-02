@@ -14,3 +14,92 @@
   text-align: center;
   margin-bottom: 20px;
 }
+
+.form__field {
+  position: relative;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form__label { 
+  width: 200px;
+  color: #757575;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.form__input,
+.form__area {
+  position: relative;
+  width: 100%;
+  outline: none;
+  border: 1px solid #d5dbd9;
+  font-size: 10px;
+  line-height: 9px;
+  padding: 8px 10px;
+  border-radius: 3px;
+  transition: border 0.3s ease,
+              box-shadow 0.4s;
+}
+
+.form__input {
+  width: 104%;
+}
+
+.form__area {
+  padding-right: 40px;
+  resize: none;
+}
+
+.form__input:focus,
+.form__area:focus {
+  border: 1px solid #ffdb00;
+}
+
+.form__input:hover,
+.form__area:hover {
+  box-shadow: 5px 5px 4px rgba(0,0,0,0.125);
+}
+
+.form__area-counter {
+  position: absolute;
+  right: 25px;
+  bottom: 5px;
+  font-size: 8px;
+}
+
+.warning {
+  border-color: red !important;
+}
+
+.warning-message {
+  position: absolute;
+  width: max-content;
+  left: 475px;
+  font-size: 10px;
+  color: red;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.button {
+  width: 100%;
+  padding: 12px 10px;
+  font-size: 15px; 
+  border: 0px;
+  background: #ffdb00;
+  color: #020303;
+  cursor: pointer;
+  border-radius: 3px;
+  outline: none;
+  transition-duration: 0.3s;
+}
+
+button:hover {
+  background: #ffe963;
+}
